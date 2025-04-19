@@ -49,11 +49,11 @@
 
         default_layer {
             bindings = <
-&kp EQUAL  &kp N1                &kp N2                 &kp N3      &kp N4              &kp N5        &mo 4                                                                   &mo 5           &kp N6        &kp N7        &kp N8      &kp N9               &kp N0           &kp MINUS
-&kp TAB    &kp Q                 &kp W                  &kp E       &lt 3 R             &kp T         &kp PLUS                                                                &kp UNDERSCORE  &kp Y         &kp U         &kp I       &kp O                &kp P            &kp BSLH
-&kp ESC    &hm LSHIFT A          &hm LEFT_CONTROL S     &hm LALT D  &hm LEFT_COMMAND F  &htlayer 1 G  &kp EQUAL  &kp GRAVE       &kp LA(GRAVE)      &kp F2         &kp F12    &kp MINUS       &htlayer 1 H  &hm RCMD J    &hm RALT K  &hm RIGHT_CONTROL L  &hm RSHIFT SEMI  &kp SQT
-&kp MINUS  &kp Z                 &kp X                  &kp C       &lt 2 V             &kp B                                    &kp ESC            &kp PAGE_UP                               &kp N         &kp M         &kp COMMA   &kp DOT              &kp FSLH         &kp MINUS
-&kp EQUAL  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT    &kp RIGHT                         &kp BSPC   &kp LEFT_SHIFT  &kp TAB            &kp PAGE_DOWN  &kp ENTER  &kp SPACE                     &kp UP_ARROW  &kp DOWN    &kp LBKT             &kp RBKT         &kp EQUAL
+&kp EQUAL  &kp N1                &kp N2                 &kp N3      &kp N4              &kp N5        &mo 4                                                                    &mo 5           &kp N6        &kp N7        &kp N8      &kp N9               &kp N0           &kp MINUS
+&kp TAB    &kp Q                 &kp W                  &kp E       &lt 3 R             &kp T         &kp PLUS                                                                 &kp UNDERSCORE  &kp Y         &kp U         &kp I       &kp O                &kp P            &kp BSLH
+&kp ESC    &hm LSHIFT A          &hm LEFT_CONTROL S     &hm LALT D  &hm LEFT_COMMAND F  &htlayer 1 G  &kp MINUS  &mt TILDE GRAVE  &kp LA(GRAVE)      &kp F2         &kp F12    &kp EQUAL       &htlayer 1 H  &hm RCMD J    &hm RALT K  &hm RIGHT_CONTROL L  &hm RSHIFT SEMI  &kp SQT
+&kp MINUS  &kp Z                 &kp X                  &kp C       &mt EQUAL V         &mt MINUS B                               &kp ESC            &kp PAGE_UP                               &mt MINUS N   &mt EQUAL M   &kp COMMA   &kp DOT              &kp FSLH         &kp MINUS
+&kp EQUAL  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT    &kp RIGHT                         &kp BSPC   &kp LEFT_SHIFT   &kp TAB            &kp PAGE_DOWN  &kp ENTER  &kp SPACE                     &kp UP_ARROW  &kp DOWN    &kp LBKT             &kp RBKT         &kp EQUAL
             >;
         };
 
@@ -79,11 +79,11 @@
 
         numbers {
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &tog 1                                      &mo 2   &kp F7          &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &kp UNDERSCORE  &kp N7  &kp N8  &kp N9   &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp MINUS       &kp N4  &kp N5  &kp N6   &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &kp EQUAL       &kp N1  &kp N2  &kp N3   &trans   &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans                  &kp N0  &kp N0  &kp DOT  &trans   &trans
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &tog 1                                      &mo 2   &kp F7     &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &kp EQUAL  &kp N7  &kp N8  &kp N9   &trans   &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp MINUS  &kp N4  &kp N5  &kp N6   &trans   &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &kp PLUS   &kp N1  &kp N2  &kp N3   &trans   &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans             &kp N0  &kp N0  &kp DOT  &trans   &trans
             >;
         };
 
