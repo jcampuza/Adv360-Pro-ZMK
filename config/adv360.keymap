@@ -27,6 +27,8 @@
             quick_tap_ms = <160>;
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
+
+            require-prior-idle-ms = <120>;
         };
 
         htlayer: htlayer {
@@ -38,6 +40,7 @@
             tapping-term-ms = <160>;
             quick-tap-ms = <160>;
             flavor = "tap-preferred";
+            require-prior-idle-ms = <120>;
         };
     };
 
