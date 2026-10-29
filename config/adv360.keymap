@@ -50,11 +50,11 @@
 
         default_layer {
             bindings = <
-&kp EQUAL  &kp N1        &kp N2              &kp N3        &kp N4              &kp N5        &mo 4                                                                               &mo 5      &kp N6        &mt LEFT_PARENTHESIS N7  &mt RIGHT_PARENTHESIS N8  &mt LEFT_BRACKET N9  &mt RIGHT_BRACKET N0  &kp MINUS
+&kp EQUAL  &kp N1        &kp N2              &kp N3        &kp N4              &kp N5        &to 6                                                                               &mo 5      &kp N6        &mt LEFT_PARENTHESIS N7  &mt RIGHT_PARENTHESIS N8  &mt LEFT_BRACKET N9  &mt RIGHT_BRACKET N0  &kp MINUS
 &kp TAB    &kp Q         &kp W               &kp E         &lt 3 R             &kp T         &kp LG(LS(NUMBER_5))                                                                &kp EQUAL  &kp Y         &kp U                    &kp I                     &kp O                &kp P                 &kp BSLH
 &kp ESC    &hm LSHIFT A  &hm LEFT_CONTROL S  &hm LALT D    &hm LEFT_COMMAND F  &htlayer 1 G  &kp LG(LS(NUMBER_4))  &mt TILDE GRAVE  &kp LA(GRAVE)      &kp F2         &kp F12    &kp MINUS  &htlayer 1 H  &hm LCMD J               &hm RALT K                &hm RIGHT_CONTROL L  &hm RSHIFT SEMI       &kp SQT
 &kp MINUS  &kp Z         &kp X               &hm LG(C) C   &hm LG(V) V         &kp B                                                &kp ESC            &kp PAGE_UP                          &kp N         &kp M                    &kp COMMA                 &kp DOT              &kp FSLH              &kp MINUS
-&kp EQUAL  &kp LEFT      &kp RIGHT           &kp LS(LPAR)  &kp LS(RPAR)                      &kp BSPC              &kp LEFT_SHIFT   &kp TAB            &kp PAGE_DOWN  &kp ENTER  &kp SPACE                &kp LBKT                 &kp RBKT                  &kp MINUS            &kp EQUAL             &kp RCMD
+&to 6      &kp LEFT      &kp RIGHT           &kp LS(LPAR)  &kp LS(RPAR)                      &kp BSPC              &kp LEFT_SHIFT   &kp TAB            &kp PAGE_DOWN  &kp ENTER  &kp SPACE                &kp LBKT                 &kp RBKT                  &kp MINUS            &kp EQUAL             &kp RCMD
             >;
         };
 
@@ -105,6 +105,16 @@
 &none  &none         &none         &none         &none         &none         &none        &none  &none      &bt BT_CLR  &none       &rgb_ug RGB_MEFS_CMD 5  &none  &none       &none       &none  &none  &none
 &none  &none         &none         &none         &macro_ver    &none                             &none      &none                                           &none  &none       &none       &none  &none  &none
 &none  &none         &none         &none         &none                       &none        &none  &none      &none       &bl BL_TOG  &rgb_ug RGB_TOG                &bl BL_INC  &bl BL_DEC  &none  &none  &none
+            >;
+        };
+
+        game {
+            bindings = <
+&kp ESC    &kp N1    &kp N2     &kp N3        &kp N4        &kp N5  &to 0                                                                    &mo 5      &kp N6  &kp N7    &kp N8     &kp N9     &kp N0     &kp MINUS
+&kp GRAVE  &kp Q     &kp W      &kp E         &kp R         &kp T   &kp LG(LS(NUMBER_5))                                                     &kp EQUAL  &kp Y   &kp U     &kp I      &kp O      &kp P      &kp BSLH
+&kp ESC    &kp A     &kp S      &kp D         &kp F         &kp G   &kp LG(LS(NUMBER_4))  &kp LGUI   &kp LALT      &kp F2         &kp F12    &kp MINUS  &kp H   &kp J     &kp K      &kp L      &kp SEMI   &kp SQT
+&kp MINUS  &kp Z     &kp X      &kp C         &kp V         &kp B                                    &kp ESC       &kp PAGE_UP                          &kp N   &kp M     &kp COMMA  &kp DOT    &kp FSLH   &kp MINUS
+&kp EQUAL  &kp LEFT  &kp RIGHT  &kp LS(LPAR)  &kp LS(RPAR)          &kp BSPC              &kp LSHFT  &kp TAB       &kp PAGE_DOWN  &kp ENTER  &kp SPACE          &kp LBKT  &kp RBKT   &kp MINUS  &kp EQUAL  &kp RCMD
             >;
         };
     };
